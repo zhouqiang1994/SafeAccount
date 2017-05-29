@@ -13,7 +13,7 @@
             android:text="类型"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/type"
+            android:id="@+id/TextView"
             android:layout_weight="1" />
 
         <EditText
@@ -68,7 +68,7 @@
             android:text="备注"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/remark"
+            android:id="@+id/TextView"
             android:layout_weight="1" />
 
         <EditText
