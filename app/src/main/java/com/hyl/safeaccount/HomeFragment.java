@@ -9,36 +9,21 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by HYL on 17/5/25.
+ * Created by POI on 2017/5/29.
  */
 
-public class MyFragment extends Fragment {
-    private String context = "有东西";
+public class HomeFragment extends Fragment {
+    private String context ="Home";
     private TextView mTextView;
-
-    public  static MyFragment newInstance(String context) {
-        MyFragment myFragment = new MyFragment();
-        Bundle bundle = new Bundle();
-        bundle.putString("context", context);
-        myFragment.setArguments(bundle);
-        return myFragment;
-
-    }
-    public MyFragment(){}
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       // context = getArguments().getString("context");
+        // context = getArguments().getString("context");
 
 
     }
-
-//    public MyFragment(String context){
-//        this.context = context;
-//    }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
