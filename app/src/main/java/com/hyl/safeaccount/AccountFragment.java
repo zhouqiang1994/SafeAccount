@@ -1,11 +1,14 @@
 package com.hyl.safeaccount;
 
 import android.app.Fragment;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
@@ -14,7 +17,8 @@ import android.widget.TextView;
 
 public class AccountFragment extends Fragment{
 
-    private TextView mTextView;
+
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -22,8 +26,8 @@ public class AccountFragment extends Fragment{
 
         // context = getArguments().getString("context");
 
-
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

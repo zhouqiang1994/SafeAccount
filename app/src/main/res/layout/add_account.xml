@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText"
+            android:id="@+id/type"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -44,7 +44,7 @@
             android:inputType="textPersonName"
             android:text="Name"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/account"
             android:layout_weight="1" />
 
     </LinearLayout>
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText3"
+            android:id="@+id/password"
             android:layout_weight="1" />
 
     </LinearLayout>
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText5"
+        android:id="@+id/remark"
         android:layout_weight="1"
         android:selectAllOnFocus="true"
         android:layout_height="wrap_content"
@@ -100,12 +100,12 @@
         android:text="添加"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:id="@+id/btn_add" />
 
     <Button
         android:text="取消"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/btn_cancel" />
 
 </LinearLayout>
